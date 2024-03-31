@@ -1,2 +1,2 @@
-# portfolio2
-Portfolio versión 2 (Marzo 2024)
+# Portfolio versión 2 
+Nuevo diseño y funciones
