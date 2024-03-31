@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Trocchi&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_title">
+            Martín Asís Muñoz
+        </div>
+        <div class="header_subtitle">
+            Desarrollo de Aplicaciones Web
+        </div>
+    </header>
+
+    <h1 class="formulario_text">Nos encantaría conocer su próximo proyecto o su último desafío. Cuéntenos un poco sobre lo que tiene en mente y nos comunicaremos en breve</h1>
+
+    <div class="formulario_seccion">
+        <form action="procesar_formulario.php" method="post" id="miFormulario" class="formulario">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellidos" required>
+                <input type="tel" name="telefono" id="telefono" placeholder="Teléfono Movil" required>
+                <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                <textarea name="comentario" id="comentario" rows="5" cols="50" placeholder="Mensaje" required></textarea>
+                <input type="submit" id="enviar" value="ENVIAR">
+        </form>
+     </div>
+
+     <script src="scriptcontact.js" defer></script>
+    
+</body>
+</html>

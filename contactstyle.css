@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    
+}
+.header_title{
+    text-align: center;
+    font-family: "Trocchi", serif;
+    padding-top: 5px;
+}
+.header_subtitle{
+    text-align: center;
+    font-family: "Trocchi", serif;
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+}
+.formulario_text{
+    text-align: center;
+    font-family: "Trocchi", serif;
+    font-size: 16px;
+    margin: 20px;
+}
+.formulario_seccion{
+    margin: 20px;
+}
+.formulario{
+    width: 80%;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 3px;
+}
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 4px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1.5px;
+
+    appearance: none;
+    -webkit-appearance: none; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    -moz-appearance: none; /* Para navegadores basados en Gecko, como Firefox */
+    -ms-appearance: none; /* Para Internet Explorer */
+    border: none; /* Eliminar el borde predeterminado */
+    outline: none; /* Eliminar el contorno al enfocar el elemento */
+    /* Agrega aquí tus estilos personalizados */
+    color: rgb(0, 0, 0);
+    /* background-color:rgb(255, 255, 255, 0.45); */
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+.formulario input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.formulario textarea::placeholder{
+    color: rgb(0, 0, 0);
+}
+.formulario input:hover, .formulario textarea:hover{
+    cursor: pointer;
+    background-color: rgb(124, 209, 209);
+}
+
+@media screen and (min-width: 500px) {
+    .formulario{
+        width: 400px;
+        display: flex;
+        padding: 10px 20px;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+}
