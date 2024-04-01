@@ -1,2 +1,2 @@
-# Portfolio versión 2 
+# Portfolio versión 2, RESPONSIVE
 Nuevo diseño y funciones
